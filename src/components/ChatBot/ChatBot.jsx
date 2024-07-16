@@ -1,7 +1,7 @@
 Chatbot.jsx
 import React, { useEffect, useState } from 'react';
 import './ChatBox.css';
-import Kevin from '../../Kevin';
+import Venkatta_Puduswammy from '../../Venkatta_Puduswammy';
 import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 
@@ -10,7 +10,7 @@ function ChatBot() {
   const [conversation, setConversation] = useState([
     {
       sender: 'assistant',
-      text: "Hello👋 I'm Kevin, Your personal assistant.",
+      text: "Hello👋 I'm Venkatta Puduswammy, Your personal assistant.",
     },
   ]);
 
@@ -37,7 +37,7 @@ function ChatBot() {
     
     // Fetch the assistant's reply
     
-    const reply = await Kevin(query, prevOrders, username, ordersInCart);
+    const reply = await Venkatta_Puduswammy(query, prevOrders, username, ordersInCart);
     setQuery('')
     // Add assistant's reply to the conversation
     setConversation((prevConversation) => [
