@@ -48,7 +48,7 @@ function Card({
         date.setDate(date.getDate() + number)
         alert("Purchasing, please wait...")
         await authService.placeOrder({itemName, itemId, userId, deliveryBy: date.toDateString(), delivered: false, price})
-        dispatch(purchaseItem([itemName: ${itemName}, itemId:${itemId}, userId: ${userId}, Will be delivered by: ${date.toDateString()}, delivered?: ${false}, price: ${price}]))
+        dispatch(purchaseItem([`itemName: ${itemName}`, `itemId:${itemId}`, `userId: ${userId}`, `Will be delivered by: ${date.toDateString()}`, `delivered?: ${false}`, `price: ${price}`]))
         // console.log("Purchase Successful")
         alert("Purchase Successful, you can ask Kevin about delivery")
       } catch (error) {
