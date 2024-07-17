@@ -1,4 +1,3 @@
-cards.js
 export const cardData = [
     {
         id: 1,
