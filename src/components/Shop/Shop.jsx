@@ -1,4 +1,3 @@
-Shop.jsx
 import React from 'react'
 import Card from '../Card/Card'
 import { cardData } from './cards'
