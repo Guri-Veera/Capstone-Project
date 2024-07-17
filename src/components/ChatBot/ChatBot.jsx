@@ -1,4 +1,4 @@
-Chatbot.jsx
+ChatBot.jsx
 import React, { useEffect, useState } from 'react';
 import './ChatBox.css';
 import Venkatta_Puduswammy from '../../Venkatta_Puduswammy';
