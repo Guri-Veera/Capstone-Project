@@ -4,7 +4,7 @@ import { config } from "./components/config/config";
 
 const genAI = new GoogleGenerativeAI(config.geminiKey);
 
-async function Kevin(query, prevOrders, username, ordersInCart) {
+async function Venkatta_Puduswammy(query, prevOrders, username, ordersInCart) {
 
   const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash"});
 
